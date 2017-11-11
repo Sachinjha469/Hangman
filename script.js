@@ -392,7 +392,7 @@ function guessLetter(){
         }
     }
     if(numWrong==7){
-        results.innerHTML = "You lose!<br>Keep guessing until you find the word!";
+        results.innerHTML = "You lose!<br>Keep guessing until you find the word!<br>";
         document.getElementById('again').style.display = "block";
         document.getElementById('home').style.display = "block";
         document.getElementById('vidSent').style.display = "block";
@@ -989,8 +989,3 @@ function reset(){
     }
 }
 
-function video(){
-    document.getElementById('gamePage').style.display = "none";
-    document.getElementById('videoPage').style.display = "block";
-    document.getElementById('home1').style.display = "block";
-}
