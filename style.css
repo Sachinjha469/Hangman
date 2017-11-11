@@ -624,29 +624,6 @@ body, html, #category, #category1, #category2, #phrases, #movies, #songs, #chall
             font-size: 26px;
             line-height: 45px;
         }
-        #vidSent{
-            margin-bottom: 30px;
-            font-size: 16px;
-        }
-    #videoPage{
-        display: none;
-        height: 320px;
-    }
-        #vidHead, #vidCaption{
-            margin: 0 auto 10px auto;
-            font-size: 30px;
-            text-align: center;
-        }
-        #vidCaption{
-            margin-top: 10px;
-            font-size: 13px;
-        }
-        #video, #videoTab, #videoMob{
-            display: block;
-        }
-        #video, #videoTab{
-            display: none;
-        }
 }
 
 @media (max-width: 450px){
